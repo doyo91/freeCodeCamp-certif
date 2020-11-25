@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
 *,
 *::after,
 *::before {
@@ -7,7 +9,109 @@
 }
 
 html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
+  background-color: white;
+  font-size: 1.6rem;
+  color: #333;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+h3 {
+  font-size: 2.4rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+main {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.hero {
+  padding-top: 5rem;
+}
+
+.hero__image {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 2rem 0 1rem;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+.tribute {
+  margin: 5rem auto;
+}
+
+.tribute__list {
+  max-width: 55rem;
+  margin: 5rem auto 5rem auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.tribute__item {
+  margin: 1.5rem 0;
+}
+
+.tribute__blockquote {
+  font-style: italic;
+  max-width: 54.5rem;
+  margin: 0 auto 5rem auto;
+  text-align: left;
+}
+
+.tribute__blockquote p {
+  margin-bottom: 2rem;
+}
+
+.tribute__more-info {
+  margin: 0 2rem;
 }
